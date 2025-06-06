@@ -1,29 +1,27 @@
-# Welcome to your Lovable project
+---
 
-## Project info
+# Welcome to Random Acts of Kindness Generator!
 
-**URL**: https://lovable.dev/projects/ceb87bd0-53d6-4ad5-b993-7e4273094e2a
+---
 
-## How can I edit this code?
+## Project Info
 
-There are several ways of editing your application.
+This project, named **"Random Acts of Kindness Generator" by fajarkurnia0388**, is designed to inspire and spread positivity through simple, daily acts of kindness.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ceb87bd0-53d6-4ad5-b993-7e4273094e2a) and start prompting.
+## How Can I Edit This Code?
 
-Changes made via Lovable will be committed automatically to this repo.
+You have several convenient options for editing this application:
 
-**Use your preferred IDE**
+### Use Your Preferred IDE
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+For local development, you can clone this repository and push your changes. Ensure you have Node.js and npm installed; we recommend using [nvm for installation](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 Follow these steps:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository using its Git URL.
 git clone <YOUR_GIT_URL>
 
 # Step 2: Navigate to the project directory.
@@ -36,38 +34,44 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Edit a File Directly in GitHub
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+You can make quick edits right from the GitHub interface:
 
-**Use GitHub Codespaces**
+1.  Navigate to the desired file(s) in the repository.
+2.  Click the "Edit" button (pencil icon) at the top right of the file view.
+3.  Make your changes and then commit them directly.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Use GitHub Codespaces
 
-## What technologies are used for this project?
+For a cloud-based development environment, use GitHub Codespaces:
 
-This project is built with:
+1.  Navigate to the main page of your repository.
+2.  Click on the "Code" button (green button) near the top right.
+3.  Select the "Codespaces" tab.
+4.  Click on "New codespace" to launch a new Codespace environment.
+5.  Edit files directly within the Codespace and commit and push your changes once you're done.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## What Technologies Are Used for This Project?
 
-Simply open [Lovable](https://lovable.dev/projects/ceb87bd0-53d6-4ad5-b993-7e4273094e2a) and click on Share -> Publish.
+This project is built with a modern web development stack:
 
-## Can I connect a custom domain to my Lovable project?
+* **Vite**
+* **TypeScript**
+* **React**
+* **shadcn-ui**
+* **Tailwind CSS**
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## How Can I Deploy This Project?
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+To deploy this project, you will typically need to use a static site hosting service. Here are some popular options:
+
+* **Vercel:** Connect your GitHub repository to Vercel, and it will automatically deploy your project on every push to the main branch.
+* **Netlify:** Similar to Vercel, Netlify provides continuous deployment from your GitHub repository.
+* **GitHub Pages:** You can configure GitHub Pages to deploy your project directly from your repository's `main` branch or `gh-pages` branch.
+
+Please refer to the documentation of your chosen hosting service for specific deployment instructions.
